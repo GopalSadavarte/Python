@@ -6,8 +6,13 @@
 #     sum+=d
 #     num/=10
 # print("Sum is ",sum)
-num = [*input("Enter a number:")]
-sum=0
-for i in num:
-    sum+=int(i)
+
+num=[*input("Enter a number:")]
+# j=0
+# for i in num:
+#     num[j]=int(i)
+#     j+=1
+# print(sum(num))
+sum=0 
+for i in num: sum+=int(i)
 print("The Sum is ",sum)
